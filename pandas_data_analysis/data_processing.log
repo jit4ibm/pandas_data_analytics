@@ -1,0 +1,39 @@
+2025-05-04 15:42:29,011 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 15:42:29,166 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 15:42:29,169 - INFO - Data loaded successfully
+2025-05-04 15:42:29,170 - INFO - Master data shape: (8, 7)
+2025-05-04 15:42:29,170 - INFO - Transaction data shape: (8, 7)
+2025-05-04 15:42:29,170 - INFO - Comparing transaction data with master data
+2025-05-04 15:42:29,597 - INFO - Comparison completed successfully
+2025-05-04 15:42:29,598 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 15:42:29,626 - INFO - Processing completed successfully
+2025-05-04 18:50:32,050 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 18:50:32,056 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 18:50:32,060 - INFO - Data loaded successfully
+2025-05-04 18:50:32,060 - INFO - Master data shape: (8, 7)
+2025-05-04 18:50:32,060 - INFO - Transaction data shape: (8, 7)
+2025-05-04 18:50:32,060 - INFO - Comparing transaction data with master data
+2025-05-04 18:50:32,062 - INFO - Comparison completed successfully
+2025-05-04 18:50:32,062 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 18:50:32,072 - INFO - Results saved successfully
+2025-05-04 18:50:32,072 - INFO - Processing completed successfully
+2025-05-04 18:58:46,115 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 18:58:46,122 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 18:58:46,127 - INFO - Data loaded successfully
+2025-05-04 18:58:46,127 - INFO - Master data shape: (8, 7)
+2025-05-04 18:58:46,127 - INFO - Transaction data shape: (8, 7)
+2025-05-04 18:58:46,127 - INFO - Comparing transaction data with master data
+2025-05-04 18:58:46,128 - INFO - Comparison completed successfully
+2025-05-04 18:58:46,128 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 18:58:46,137 - INFO - Results saved successfully
+2025-05-04 18:58:46,137 - INFO - Processing completed successfully
+2025-05-04 19:03:39,571 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 19:03:39,577 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 19:03:39,583 - INFO - Data loaded successfully
+2025-05-04 19:03:39,583 - INFO - Master data shape: (8, 6)
+2025-05-04 19:03:39,583 - INFO - Transaction data shape: (8, 6)
+2025-05-04 19:03:39,583 - INFO - Comparing transaction data with master data
+2025-05-04 19:03:39,585 - INFO - Comparison completed successfully
+2025-05-04 19:03:39,585 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 19:03:39,595 - INFO - Results saved successfully
+2025-05-04 19:03:39,595 - INFO - Processing completed successfully
