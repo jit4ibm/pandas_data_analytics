@@ -1,0 +1,113 @@
+2025-05-04 15:42:29,011 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 15:42:29,166 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 15:42:29,169 - INFO - Data loaded successfully
+2025-05-04 15:42:29,170 - INFO - Master data shape: (8, 7)
+2025-05-04 15:42:29,170 - INFO - Transaction data shape: (8, 7)
+2025-05-04 15:42:29,170 - INFO - Comparing transaction data with master data
+2025-05-04 15:42:29,597 - INFO - Comparison completed successfully
+2025-05-04 15:42:29,598 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 15:42:29,626 - INFO - Processing completed successfully
+2025-05-04 18:50:32,050 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 18:50:32,056 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 18:50:32,060 - INFO - Data loaded successfully
+2025-05-04 18:50:32,060 - INFO - Master data shape: (8, 7)
+2025-05-04 18:50:32,060 - INFO - Transaction data shape: (8, 7)
+2025-05-04 18:50:32,060 - INFO - Comparing transaction data with master data
+2025-05-04 18:50:32,062 - INFO - Comparison completed successfully
+2025-05-04 18:50:32,062 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 18:50:32,072 - INFO - Results saved successfully
+2025-05-04 18:50:32,072 - INFO - Processing completed successfully
+2025-05-04 18:58:46,115 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 18:58:46,122 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 18:58:46,127 - INFO - Data loaded successfully
+2025-05-04 18:58:46,127 - INFO - Master data shape: (8, 7)
+2025-05-04 18:58:46,127 - INFO - Transaction data shape: (8, 7)
+2025-05-04 18:58:46,127 - INFO - Comparing transaction data with master data
+2025-05-04 18:58:46,128 - INFO - Comparison completed successfully
+2025-05-04 18:58:46,128 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 18:58:46,137 - INFO - Results saved successfully
+2025-05-04 18:58:46,137 - INFO - Processing completed successfully
+2025-05-04 19:03:39,571 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 19:03:39,577 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 19:03:39,583 - INFO - Data loaded successfully
+2025-05-04 19:03:39,583 - INFO - Master data shape: (8, 6)
+2025-05-04 19:03:39,583 - INFO - Transaction data shape: (8, 6)
+2025-05-04 19:03:39,583 - INFO - Comparing transaction data with master data
+2025-05-04 19:03:39,585 - INFO - Comparison completed successfully
+2025-05-04 19:03:39,585 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 19:03:39,595 - INFO - Results saved successfully
+2025-05-04 19:03:39,595 - INFO - Processing completed successfully
+2025-05-04 19:14:50,706 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-04 19:14:50,713 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-04 19:14:50,719 - INFO - Data loaded successfully
+2025-05-04 19:14:50,719 - INFO - Master data shape: (8, 6)
+2025-05-04 19:14:50,719 - INFO - Transaction data shape: (8, 6)
+2025-05-04 19:14:50,719 - INFO - Comparing transaction data with master data
+2025-05-04 19:14:50,720 - INFO - Comparison completed successfully
+2025-05-04 19:14:50,720 - INFO - Saving results to data/output/Transaction_Data_Compared.xlsx
+2025-05-04 19:14:50,731 - INFO - Results saved successfully
+2025-05-04 19:14:50,731 - INFO - Processing completed successfully
+2025-05-06 00:24:13,732 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-06 00:24:13,737 - ERROR - Error loading data: Key columns ['ID', 'Transaction_Ref'] not found in master data
+2025-05-06 00:24:13,737 - ERROR - Processing failed: Data loading failed: Key columns ['ID', 'Transaction_Ref'] not found in master data
+2025-05-06 00:28:15,752 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-06 00:28:15,760 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-06 00:28:15,766 - ERROR - Error loading data: No suitable key columns found. Please ensure there's at least one common column with unique values in both datasets.
+2025-05-06 00:28:15,766 - ERROR - Processing failed: Data loading failed: No suitable key columns found. Please ensure there's at least one common column with unique values in both datasets.
+2025-05-06 00:31:24,574 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-06 00:31:24,581 - INFO - Master data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5']
+2025-05-06 00:31:24,581 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-06 00:31:24,585 - INFO - Transaction data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5', 'Unnamed: 6']
+2025-05-06 00:31:24,587 - INFO - Using matching strategy: all_common_columns
+2025-05-06 00:31:24,587 - INFO - Using key columns: ['Unnamed: 5', 'Valid To', 'Description', 'Quantity', 'Valid From', 'Part Number']
+2025-05-06 00:31:24,589 - WARNING - Removed 1 duplicates from master data
+2025-05-06 00:31:24,589 - WARNING - Removed 2 duplicates from transaction data
+2025-05-06 00:31:24,590 - ERROR - Error loading data: You are trying to merge on float64 and object columns for key 'Unnamed: 5'. If you wish to proceed you should use pd.concat
+2025-05-06 00:31:24,590 - INFO - Sample of Master Data:
+2025-05-06 00:31:24,592 - INFO -   Part Number Description  Quantity Valid From   Valid To Unnamed: 5
+0      A12345       PartA      10.0 2025-03-01 2025-12-31        NaN
+1      B12334      PartBs      20.0 2025-03-02 2026-01-01        NaN
+2      C12345       PartC      30.0 2025-03-03 2026-01-02          s
+2025-05-06 00:31:24,592 - INFO - Sample of Transaction Data:
+2025-05-06 00:31:24,593 - INFO -   Part Number Description  Quantity Valid From   Valid To  Unnamed: 5 Unnamed: 6
+0      A12345       PartA      10.0 2024-03-01 2025-12-31         NaN        NaN
+1      B12334      PartFs      25.0 2025-03-02 2026-01-01         NaN        NaN
+2      C12345       PartC      30.0 2023-03-03 2028-01-02         NaN          s
+2025-05-06 00:31:24,593 - ERROR - Processing failed: Data loading failed: You are trying to merge on float64 and object columns for key 'Unnamed: 5'. If you wish to proceed you should use pd.concat
+2025-05-06 00:31:24,593 - INFO - Please check that:
+2025-05-06 00:31:24,593 - INFO - 1. Both files exist in the data/input directory
+2025-05-06 00:31:24,593 - INFO - 2. They have at least one column with the same name
+2025-05-06 00:31:24,593 - INFO - 3. The columns contain matching values
+2025-05-06 00:33:31,657 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-06 00:33:31,664 - INFO - Master data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5']
+2025-05-06 00:33:31,664 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-06 00:33:31,668 - INFO - Transaction data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5', 'Unnamed: 6']
+2025-05-06 00:33:31,670 - INFO - Using matching strategy: all_common_columns
+2025-05-06 00:33:31,670 - INFO - Using key columns: ['Valid From', 'Description', 'Valid To', 'Part Number', 'Unnamed: 5', 'Quantity']
+2025-05-06 00:33:31,672 - WARNING - Removed 2 duplicates from master data
+2025-05-06 00:33:31,672 - WARNING - Removed 2 duplicates from transaction data
+2025-05-06 00:33:31,673 - ERROR - Error loading data: You are trying to merge on float64 and object columns for key 'Unnamed: 5'. If you wish to proceed you should use pd.concat
+2025-05-06 00:33:31,673 - INFO - Sample of Master Data:
+2025-05-06 00:33:31,674 - INFO -   Part Number Description  Quantity Valid From   Valid To Unnamed: 5
+0      A12345       PartA      10.0 2025-03-01 2025-12-31        NaN
+1      B12334      PartBs      20.0 2025-03-02 2026-01-01        NaN
+2      C12345       PartC      30.0 2025-03-03 2026-01-02          s
+2025-05-06 00:33:31,674 - INFO - Sample of Transaction Data:
+2025-05-06 00:33:31,675 - INFO -   Part Number Description  Quantity Valid From   Valid To  Unnamed: 5 Unnamed: 6
+0      A12345       PartA      10.0 2024-03-01 2025-12-31         NaN        NaN
+1      B12334      PartFs      25.0 2025-03-02 2026-01-01         NaN        NaN
+2      C12345       PartC      30.0 2023-03-03 2028-01-02         NaN          s
+2025-05-06 00:33:31,675 - ERROR - Processing failed: Data loading failed: You are trying to merge on float64 and object columns for key 'Unnamed: 5'. If you wish to proceed you should use pd.concat
+2025-05-06 00:33:31,675 - INFO - Please check that:
+2025-05-06 00:33:31,675 - INFO - 1. Both files exist in the data/input directory
+2025-05-06 00:33:31,675 - INFO - 2. They have at least one column with the same name
+2025-05-06 00:33:31,675 - INFO - 3. The columns contain matching values
+2025-05-06 00:37:11,455 - INFO - Loading master data from data/input/Master Data.xlsx
+2025-05-06 00:37:11,461 - INFO - Master data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5']
+2025-05-06 00:37:11,461 - INFO - Loading transaction data from data/input/Transaction Data.xlsx
+2025-05-06 00:37:11,468 - INFO - Transaction data columns: ['Part Number', 'Description', 'Quantity', 'Valid From', 'Valid To', 'Unnamed: 5', 'Unnamed: 6']
+2025-05-06 00:37:11,471 - INFO - Using key columns for matching: ['Part Number', 'Description']
+2025-05-06 00:37:11,472 - WARNING - Removed 2 duplicates from master data
+2025-05-06 00:37:11,473 - WARNING - Removed 2 duplicates from transaction data
+2025-05-06 00:37:11,475 - INFO - Aligned data shapes - Master: (3, 5), Transaction: (3, 5)
+2025-05-06 00:37:11,485 - INFO - Successfully saved results to data/output/Comparison_Results.xlsx
